@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+.header-top {
+    height: 34px;
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 34px;
+    font-family: Arial, "宋体";
+    font-size: 12px;
+    color: #5d5d5d;
+}
+
+.header-top a {
+    color: #3f3f3f;
+}
+
+.header-top a:hover {
+    text-decoration: underline;
+}
+
+.header-top-left {
+    float: left;
+}
+
+.header-top-right {
+    float: right;
+}
+
+.body-content>li {
+    float: left; 
+}
+
+.body-content a {
+    margin: 0 5px;
+    color: #7f7f7f;
+}
